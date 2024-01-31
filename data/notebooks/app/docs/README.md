@@ -6,3 +6,5 @@
  * Good details of your education and experience
  * include certificates, personal intrests, links to projects
  * Provide full name   
+
+![Profile_image](Headshot.jpg)
