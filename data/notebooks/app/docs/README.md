@@ -3,8 +3,10 @@
 ![Profile_image](Headshot.jpg)
  * ### Education 
    * **Master in Professional Studies**: Data Science
+     
      University of Maryland - Baltimore County, Baltimore, MD
    * **Bachelor of Technology**: Computer Science And Engineering (Hons.)
+     
      Lovely Professional University, Punjab, Indian
  * ### Professional Summary
    * Skilled multitasker with superior work ethic and good teamwork, problem-solving and organizational skills.
