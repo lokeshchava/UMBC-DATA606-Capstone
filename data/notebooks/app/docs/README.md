@@ -30,6 +30,7 @@
     * Sorted and organized files, spreadsheets, and reports.
     * Performed Data Analysis and developed visualization tabs
     * Worked on a platform migration project
+
   * *August 2021 - December 2021*
   * **ShAsh** | Intern | Hydrabad, India
     * Worked on a Data migration project for homeland software.
