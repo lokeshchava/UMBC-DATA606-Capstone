@@ -48,7 +48,7 @@
   * Cloud Computing (Cloud Guru)- Jun 2020
   * Career Edege for Data Science (TCS ION) - May 2020
 * ### Projects
-  *  Traffic Data predictive Analysis and dashboarding using Hadoop and PowerBi
+  *  [Traffic Data predictive Analysis and dashboarding using Hadoop and PowerBi](https://github.com/lokeshchava/DATA603_Final_project)
   *  Face Recognition system using OpenCV in Python
   *  Program Scheduler using primitive priority scheduling algorithm in linux
   *  IPL Management system using the concepts of methods, Inheritance and abstraction in java
