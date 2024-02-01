@@ -49,8 +49,8 @@
   * Career Edege for Data Science (TCS ION) - May 2020
 * ### Projects
   *  Traffic Data predictive Analysis and dashboarding using Hadoop and PowerBi [🔗](https://github.com/lokeshchava/DATA603_Final_project)
-  *  Face Recognition system using OpenCV in Python
-  *  Program Scheduler using primitive priority scheduling algorithm in linux
-  *  IPL Management system using the concepts of methods, Inheritance and abstraction in java
-  *  Front end development for a construction website using HTML, CSS and Java Script.
-  *  Garage Management system designed using the concepts of Methods, Abstraction, Encapsulation, Enums and files in java
+  *  Face Recognition system using OpenCV in Python [🔗](https://github.com/lokeshchava/Face-Recognition-Using-AI-1)
+  *  Program Scheduler using primitive priority scheduling algorithm in linux [🔗](https://github.com/lokeshchava/prority-scheduling)
+  *  IPL Management system using the concepts of methods, Inheritance and abstraction in java [🔗](https://github.com/lokeshchava/garage-management-system-in-java)
+  *  Front end development for a construction website using HTML, CSS and Java Script. [🔗](https://github.com/lokeshchava/HTML-project)
+  *  Garage Management system designed using the concepts of Methods, Abstraction, Encapsulation, Enums and files in java [🔗](https://github.com/lokeshchava/garage-management-system-in-java)
