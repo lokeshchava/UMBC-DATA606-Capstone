@@ -1,7 +1,7 @@
 # Lokesh Chava
-**📍 BALTIMORE, MD 21227**  
+**📍 Baltimore, MD 21227**  
 **☎️  4436318662**  
-**📧 CHAVALOKESH01@GMAIL.COM**
+**📧 chavalokesh01@GMAIL.COM**
 
 ![Profile_image](Headshot.jpg)
  * ### Education 
