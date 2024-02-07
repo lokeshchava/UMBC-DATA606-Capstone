@@ -1,19 +1,10 @@
-# The Template and Guideline for the Final Report
-
-- This document serves as a guide for developing project proposal which will eventually become the proposal and final report.
-- You start with the end in mind and adopt an agile approach:
-  - Making progress continuously towards your goal.
-  - Updating this document continuously along the way.
- 
-## 1. Title and Author
-
-- Project Title
-- Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
-- Author Name 
-- Link to the author's GitHub profile
-- Link to the author's LinkedIn progile
-- Link to your PowerPoint presentation file
-- Link to your YouTube video 
+ ## 1. Insurance fraud detection and analysis
+- Insurance fraud detection and analysis
+- Prepared for UMBC Data Science Master Degree Capstone by Lokesh Chava under the guidance of Dr Chaojie (Jay) Wang
+- Author Name: Lokesh Chava
+- GitHub profile : https://github.com/lokeshchava
+- LinkedIn profile : https://www.linkedin.com/in/chavalokesh
+- PowerPoint presentation file : https://docs.google.com/presentation/d/1K-_GsqiDmS10ktd7dYoX4rYIWv3ppP3L7I3vTkyYeag/edit?usp=sharing
     
 ## 2. Background
 
