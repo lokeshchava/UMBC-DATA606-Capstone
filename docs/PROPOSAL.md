@@ -8,11 +8,11 @@
     
 ## 2. Background
 Insurance Frauds bangs upto millions of dollars every year for insurance companies. it is very essential to have a fraud dectection system in place to avoid fradulent claims and maintain fairness in the claim process, thus enhancing companies reputation and build trust.
-- What is it about?
+- What is it about?  
   A fraud detection system for insurance claim helps in identifing fraudulent request for insurance claim and helps in improving a very robust and autonomus system.  
-- Why does it matter?
+- Why does it matter?  
   Fraudulent claims introduce additional risk to insurance portfolios. By detecting and preventing fraud, insurance companies can better manage their risk exposure and maintain the financial health of the organization.  
-- What are your research questions?
+- What are your research questions?  
   How to classify the fair and fraud requests
   what are the factors that determines fraud activites
   which algorithm best suits the model
