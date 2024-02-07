@@ -7,13 +7,15 @@
 - PowerPoint presentation file : https://docs.google.com/presentation/d/1K-_GsqiDmS10ktd7dYoX4rYIWv3ppP3L7I3vTkyYeag/edit?usp=sharing
     
 ## 2. Background
-
-Provide the background information about the chosen topic. 
-
-- What is it about? 
-- Why does it matter? 
+Insurance Frauds bangs upto millions of dollars every year for insurance companies. it is very essential to have a fraud dectection system in place to avoid fradulent claims and maintain fairness in the claim process, thus enhancing companies reputation and build trust.
+- What is it about?
+  A fraud detection system for insurance claim helps in identifing fraudulent request for insurance claim and helps in improving a very robust and autonomus system.  
+- Why does it matter?
+  Fraudulent claims introduce additional risk to insurance portfolios. By detecting and preventing fraud, insurance companies can better manage their risk exposure and maintain the financial health of the organization.  
 - What are your research questions?
-
+  How to classify the fair and fraud requests
+  what are the factors that determines fraud activites
+  which algorithm best suits the model
 ## 3. Data 
 
 Describe the datasets you are using to answer your research questions.
@@ -30,48 +32,4 @@ Describe the datasets you are using to answer your research questions.
   - Potential values (for categorical valuables, what are the categories?)
 - Which variable/column will be your target/label in your ML model?
 - Which variables/columns may be selected as features/predictors for your ML models?
-
-## 4. Exploratory Data Analysis (EDA)
-
-- Perform data exploration using Jupyter Notebook
-- You would focus on the target variable and the selected features and drop all other columns.
-- produce summary statistics of key variables
-- Create visualizations (I recommend using **Plotly Express**)
-- Find out if the data require cleansing:
-  - Missing values?
-  - Duplicate rows? 
-- Find out if the data require splitting, merging, pivoting, melting, etc.
-- Find out if you need to bring in other data sources to augment your data.
-  - For example, population, socioeconomic data from Census may be helpful.
-- For textual data, you will pre-process (normalize, remove stopwords, tokenize) them before you can analyze them in predictive analysis/machine learning.
-- Make sure the resulting dataset need to be "tidy":
-  - each row represent one observation (ideally one unique entity/subject).
-  - each columm represents one unique property of that entity. 
-
-## 5. Model Training 
-
-- What models you will be using for predictive analytics?
-- How will you train the models?
-  - Train vs test split (80/20, 70/30, etc.)
-  - Python packages to be used (scikit-learn, NLTK, spaCy, etc.)
-  - The development environments (your laptop, Google CoLab, GitHub CodeSpaces, etc.)
-- How will you measure and compare the performance of the models?
-
-## 6. Application of the Trained Models
-
-Develop a web app for people to interact with your trained models. Potential tools for web app development:
-
-- **Streamlit** (recommended for its simplicity and ease to learn)
-- Dash
-- Flask
-
-## 7. Conclusion
-
-- Summarize your work and its potetial application
-- Point out the limitations of your work
-- Lessons learned 
 - Talk about future research direction
-
-## 8. References 
-
-List articles, blogs, and websites that you have referenced or used in your project.
