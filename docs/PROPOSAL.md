@@ -63,11 +63,11 @@ Describe the datasets you are using to answer your research questions.
       - Access logs or activity logs indicating unusual behavior.
 
 - Talk about future research direction  
-  - Advanced Anomaly Detection Techniques:
+  - **Advanced Anomaly Detection Techniques**:
     Explore more sophisticated anomaly detection algorithms like Isolation Forests, Autoencoders, or One-Class SVMs to improve detection accuracy.
-  - Network Analysis:
+  - **Network Analysis**:
     Investigate techniques from network analysis to identify complex collusion patterns involving multiple entities (employees, vendors, customers).
-  - Behavioral Analysis:
+  - **Behavioral Analysis**:
     Develop models that incorporate behavioral analysis techniques to detect subtle changes in employee or vendor behavior that may indicate fraudulent activity.
-  - Real-Time Monitoring:
+  - **Real-Time Monitoring**:
     Design systems for real-time monitoring of insurance transactions to enable proactive fraud detection and prevention.
