@@ -20,7 +20,7 @@ Insurance Frauds bangs upto millions of dollars every year for insurance compani
 
 Describe the datasets you are using to answer your research questions.
 
-- Data sources: [Link](https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data?select=vendor_data.csv)
+- Data sources: [Kaggle Link](https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data?select=vendor_data.csv)
 - Data size (MB, GB, etc.)  
   ![Employee_Dataset_size.img](Images/Dataset_Size.png)
 - Data shape (# of rows and # columns)  
