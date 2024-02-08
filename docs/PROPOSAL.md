@@ -31,6 +31,7 @@ Describe the datasets you are using to answer your research questions.
   - Insurance Dataset Timeperiod  
     ![Insurance_Dataset_Timeperiod.img](images/Insurance_Dataset_TimePeriod.png)
 - **What does each row represent?(a patient, a school, a crime, etc.)**
+  
 - Data dictionary
   - Columns name
   - Data type
@@ -42,6 +43,31 @@ Describe the datasets you are using to answer your research questions.
     ![Vendor_Dataset_columns.img](images/Vendor_DataType.png)
   - Insurance Dataset Columns:  
     ![Insurance_dataset_columns.img](images/Insurance_DataType.png)
+    
 - Which variable/column will be your target/label in your ML model?
+  - Claim Level Fraud Detection:
+    - Target Variable: CLAIM_STATUS or CLAIM_AMOUNT. These could indicate whether a claim is fraudulent or not.  
+  - Employee Fraud Detection:
+    -  Target Variable: EMPLOYMENT_STATUS. We can identify potentially fraudulent behavior by looking for irregularities in an employee's status, such as terminated employees still processing claims or employees with unauthorized access to sensitive information.
+     
 - Which variables/columns may be selected as features/predictors for your ML models?
-- Talk about future research direction
+  - Claim Level Fraud Detection:
+    - Features can include various attributes related to the claim, customer, and incident:
+      - Customer demographics (AGE, MARITAL_STATUS, SOCIAL_CLASS, etc.).
+      - Claim details (CLAIM_AMOUNT, INCIDENT_SEVERITY, INCIDENT_STATE, etc.).
+      - Transaction details (TXN_DATE_TIME, POLICY_EFF_DT, REPORT_DT, etc.).
+  - Employee Fraud Detection:
+    - Features can involve employee-related data such as:
+      - Length of employment (TENURE).
+      - Historical performance metrics.
+      - Access logs or activity logs indicating unusual behavior.
+
+- Talk about future research direction  
+  - Advanced Anomaly Detection Techniques:
+    Explore more sophisticated anomaly detection algorithms like Isolation Forests, Autoencoders, or One-Class SVMs to improve detection accuracy.
+  - Network Analysis:
+    Investigate techniques from network analysis to identify complex collusion patterns involving multiple entities (employees, vendors, customers).
+  - Behavioral Analysis:
+    Develop models that incorporate behavioral analysis techniques to detect subtle changes in employee or vendor behavior that may indicate fraudulent activity.
+  - Real-Time Monitoring:
+    Design systems for real-time monitoring of insurance transactions to enable proactive fraud detection and prevention.
