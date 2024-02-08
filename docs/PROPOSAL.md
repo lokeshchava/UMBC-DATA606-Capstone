@@ -22,9 +22,14 @@ Describe the datasets you are using to answer your research questions.
 
 - Data sources: [Link](https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data?select=vendor_data.csv)
 - Data size (MB, GB, etc.)  
-  ![Employee_Dataset_size.img](Images/Dataset_Shape.png)
+  ![Employee_Dataset_size.img](Images/Dataset_Size.png)
 - Data shape (# of rows and # columns)
+  ![Employee_Dataset_Shape.img](Images/Dataset_Shape.png)
 - Time period (for example, 2010 to 2020) if your data are time-bound
+  - Employee Dataset timeperiod
+    ![Employee_Dataset_Timeperiod.img](Images/Employee_TimePeriod.png)
+  - Insurance Dataset Timeperiod
+    ![Insurance_Dataset_size.img](Images/Insurance_TimePeriod.png)
 - **What does each row represent?(a patient, a school, a crime, etc.)**
 - Data dictionary
   - Columns name
