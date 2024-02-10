@@ -33,10 +33,6 @@ Describe the datasets you are using to answer your research questions.
 - **What does each row represent?(a patient, a school, a crime, etc.)**
   
 - Data dictionary
-  - Columns name
-  - Data type
-  - Defition
-  - Potential values (for categorical valuables, what are the categories?)
   - Employee Dataset Columns:  
     ![Employee_Dataset_columns.img](images/Employee_DataType.png)
   - Vendor Dataset Columns:  
