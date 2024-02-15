@@ -13,8 +13,8 @@ Insurance Frauds bangs upto millions of dollars every year for insurance compani
 - Why does it matter?  
   Fraudulent claims introduce additional risk to insurance portfolios. By detecting and preventing fraud, insurance companies can better manage their risk exposure and maintain the financial health of the organization.  
 - What are your research questions?  
-  How to classify the fair and fraud requests
-  what are the factors that determines fraud activites
+  How to classify the fair and fraud requests  
+  what are the factors that determines fraud activites  
   which algorithm best suits the model
 ## 3. Data 
 
@@ -30,7 +30,6 @@ Describe the datasets you are using to answer your research questions.
     ![Employee_Dataset_Timeperiod.img](images/Employee_Dataset_TimePeriod.png)
   - Insurance Dataset Timeperiod  
     ![Insurance_Dataset_Timeperiod.img](images/Insurance_Dataset_TimePeriod.png)
-- **What does each row represent?(a patient, a school, a crime, etc.)**
   
 - Data dictionary
   - Employee Dataset Columns:  
