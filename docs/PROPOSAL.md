@@ -1,4 +1,4 @@
- ## 1. Insurance fraud detection and analysis
+ # 1. Insurance fraud detection and analysis
 - Insurance fraud detection and analysis
 - Prepared for UMBC Data Science Master Degree Capstone by Lokesh Chava under the guidance of Dr Chaojie (Jay) Wang
 - Author Name: Lokesh Chava
@@ -6,17 +6,17 @@
 - LinkedIn profile : https://www.linkedin.com/in/chavalokesh
 - PowerPoint presentation file : https://docs.google.com/presentation/d/1K-_GsqiDmS10ktd7dYoX4rYIWv3ppP3L7I3vTkyYeag/edit?usp=sharing
     
-## 2. Background
+# 2. Background
 Insurance Frauds bangs upto millions of dollars every year for insurance companies. it is very essential to have a fraud dectection system in place to avoid fradulent claims and maintain fairness in the claim process, thus enhancing companies reputation and build trust.
-- What is it about?  
+- **What is it about?**  
   A fraud detection system for insurance claim helps in identifing fraudulent request for insurance claim and helps in improving a very robust and autonomus system.  
-- Why does it matter?  
+- **Why does it matter?**  
   Fraudulent claims introduce additional risk to insurance portfolios. By detecting and preventing fraud, insurance companies can better manage their risk exposure and maintain the financial health of the organization.  
-- What are your research questions?  
+- **What are your research questions?**  
   How to classify the fair and fraud requests  
   what are the factors that determines fraud activites  
   which algorithm best suits the model
-## 3. Data 
+# 3. Data 
 
 Describe the datasets you are using to answer your research questions.
 
