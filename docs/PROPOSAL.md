@@ -43,19 +43,18 @@ Describe the datasets you are using to answer your research questions.
   - Claim Level Fraud Detection:
     - Target Variable: CLAIM_STATUS and CLAIM_AMOUNT. These could indicate whether a claim is fraudulent or not.  
   
-- columns selected as features/predictors for your ML models
+- Columns selected as features/predictors for your ML models
   - Claim Level Fraud Detection:
     - Features can include various attributes related to the claim, customer, and incident:
       - Customer demographics (AGE, MARITAL_STATUS, SOCIAL_CLASS, etc.).
       - Claim details (CLAIM_AMOUNT, INCIDENT_SEVERITY, INCIDENT_STATE, etc.).
       - Transaction details (TXN_DATE_TIME, POLICY_EFF_DT, REPORT_DT, etc.).
 
-- Future research direction  
-  - **Advanced Anomaly Detection Techniques**:
-    Explore more sophisticated anomaly detection algorithms like Isolation Forests, Autoencoders, or One-Class SVMs to improve detection accuracy.
-  - **Network Analysis**:
-    Investigate techniques from network analysis to identify complex collusion patterns involving multiple entities (employees, vendors, customers).
-  - **Behavioral Analysis**:
-    Develop models that incorporate behavioral analysis techniques to detect subtle changes in employee or vendor behavior that may indicate fraudulent activity.
-  - **Real-Time Monitoring**:
-    Design systems for real-time monitoring of insurance transactions to enable proactive fraud detection and prevention.
+- Project Flow
+  - Initial data prepration
+  - Performing Exploratory Data Analysis
+  - Selecting Data Model
+  - Hypertuning the model parameters
+  - Testing
+  - Web Deployement using flask
+  
