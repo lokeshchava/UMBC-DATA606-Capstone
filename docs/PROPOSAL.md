@@ -50,7 +50,7 @@ Describe the datasets you are using to answer your research questions.
       - Claim details (CLAIM_AMOUNT, INCIDENT_SEVERITY, INCIDENT_STATE, etc.).
       - Transaction details (TXN_DATE_TIME, POLICY_EFF_DT, REPORT_DT, etc.).
 
-- Project Flow
+## Project Flow
   - Initial data prepration
   - Performing Exploratory Data Analysis
   - Selecting Data Model
