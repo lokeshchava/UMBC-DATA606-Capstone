@@ -51,10 +51,10 @@ Describe the datasets you are using to answer your research questions.
       - Transaction details (TXN_DATE_TIME, POLICY_EFF_DT, REPORT_DT, etc.).
 
 ## Project Flow
-  - Initial data prepration
+  - Initial data preparation
   - Performing Exploratory Data Analysis
   - Selecting Data Model
   - Hypertuning the model parameters
   - Testing
-  - Web Deployement using flask
+  - Web Deployment using flask
   
