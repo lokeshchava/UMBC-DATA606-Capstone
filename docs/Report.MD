@@ -39,7 +39,7 @@ Describe the datasets you are using to answer your research questions.
       - Claim details (CLAIM_AMOUNT, INCIDENT_SEVERITY, INCIDENT_STATE, etc.).
       - Incident details (DayOfWeek, PoliceReportFiled, NumberOfCars, etc.).
 
-# Project Flow
+# 4. Project Flow
   - Initial data preparation
   - Performing Exploratory Data Analysis
   - Selecting Data Model
