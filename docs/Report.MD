@@ -48,8 +48,9 @@ Describe the datasets you are using to answer your research questions.
   - Web Deployment using Streamlit
 
 # 5. Exploratory Data Analysis (EDA)
-  - Initial Statistics:
+  - Initial Statistics:  
 |    |WeekOfMonth	|WeekOfMonthClaimed	|Age	|PolicyNumber	|RepNumber	|Deductible	|DriverRating	|Year |
+------------------------------------------------------------------------------------------------------
 |count	|15420.000000	|15420.000000	|15420.000000	|15420.000000	|15420.000000	|15420.000000	|15420.000000	|15420.000000 |
 mean	2.788586	2.693969	39.855707	7710.500000	8.483268	407.704280	2.487808	1994.866472
 std	1.287585	1.259115	13.492377	4451.514911	4.599948	43.950998	1.119453	0.803313
