@@ -1,44 +1,33 @@
- # 1. Insurance fraud detection and analysis
-- Insurance fraud detection and analysis
+ # 1. Vehicle insurance fraud detection and analysis
+- Vehicle insurance fraud detection and analysis
 - Prepared for UMBC Data Science Master Degree Capstone by Lokesh Chava under the guidance of Dr Chaojie (Jay) Wang
 - Author Name: Lokesh Chava
-- GitHub profile : https://github.com/lokeshchava
-- LinkedIn profile : https://www.linkedin.com/in/chavalokesh
-- PowerPoint presentation file : https://docs.google.com/presentation/d/1K-_GsqiDmS10ktd7dYoX4rYIWv3ppP3L7I3vTkyYeag/edit?usp=sharing
+- GitHub profile: https://github.com/lokeshchava
+- LinkedIn profile: https://www.linkedin.com/in/chavalokesh
+- PowerPoint presentation file: https://docs.google.com/presentation/d/1K-_GsqiDmS10ktd7dYoX4rYIWv3ppP3L7I3vTkyYeag/edit?usp=sharing
     
 # 2. Background
-Insurance Frauds bangs upto millions of dollars every year for insurance companies. it is very essential to have a fraud dectection system in place to avoid fradulent claims and maintain fairness in the claim process, thus enhancing companies reputation and build trust.
+Insurance Fraud bumps up to millions of dollars every year for insurance companies. it is very essential to have a fraud detection system in place to avoid fraudulent claims and maintain fairness in the claim process, thus enhancing the company's reputation and building trust.
 - **What is it about?**  
-  A fraud detection system for insurance claim helps in identifing fraudulent request for insurance claim and helps in improving a very robust and autonomus system.  
+  A fraud detection system for Vehicle insurance claims helps in identifying fraudulent requests for insurance claims and helps in improving a very robust and autonomous system.  
 - **Why does it matter?**  
   Fraudulent claims introduce additional risk to insurance portfolios. By detecting and preventing fraud, insurance companies can better manage their risk exposure and maintain the financial health of the organization.  
 - **What are your research questions?**  
-  How to classify the fair and fraud requests  
-  what are the factors that determines fraud activites  
-  which algorithm best suits the model
+  How to classify the fair and fraud requests?   
+  what are the factors that determine fraud activities?  
+  which algorithm best suits the model?  
 # 3. Data 
 
 Describe the datasets you are using to answer your research questions.
 
-- Data sources: [Kaggle Link](https://www.kaggle.com/datasets/mastmustu/insurance-claims-fraud-data?select=vendor_data.csv)
-- Data size (MB, GB, etc.)  
-  ![Employee_Dataset_size.img](images/Dataset_Size.png)
-- Data shape (# of rows and # columns)  
-  ![Employee_Dataset_Shape.img](images/Dataset_Shape.png)
-- Time period (for example, 2010 to 2020) if your data are time-bound
-  - Employee Dataset timeperiod  
-    ![Employee_Dataset_Timeperiod.img](images/Employee_Dataset_TimePeriod.png)
-  - Insurance Dataset Timeperiod  
-    ![Insurance_Dataset_Timeperiod.img](images/Insurance_Dataset_TimePeriod.png)
-  
+- Data sources: [Kaggle Link](https://www.kaggle.com/datasets/khusheekapoor/vehicle-insurance-fraud-detection)
+- Data size: 3.69 MB
+- Data shape: 15420 rows, 33 columns
 - Data dictionary
-  - Employee Dataset Columns:  
-    ![Employee_Dataset_columns.img](images/Employee_DataType.png)
-  - Vendor Dataset Columns:  
-    ![Vendor_Dataset_columns.img](images/Vendor_DataType.png)
-  - Insurance Dataset Columns:  
-    ![Insurance_dataset_columns.img](images/Insurance_DataType.png)
-    
+   - Integer type columns: WeekOfMonth, WeekOfMonthClaimed, Age, PolicyNumber, RepNumber, Deductible, DriverRating, Year
+   - Object type Columns: Month, DayOfWeek, Make, AccidentArea, DayOfWeekClaimed, MonthClaimed, Sex, MaritalStatus, Fault, PolicyType, VehicleCategory, VehiclePrice,
+       Days:Policy-Accident, Days:Policy-Claim, PastNumberOfClaims, AgeOfVehicle, AgeOfPolicyHolder, PoliceReportFiled, WitnessPresent, AgentType,
+       NumberOfSuppliments, AddressChange-Claim, NumberOfCars, BasePolicy, FraudFound
 - variable used as target/label in ML model
   - Claim Level Fraud Detection:
     - Target Variable: CLAIM_STATUS and CLAIM_AMOUNT. These could indicate whether a claim is fraudulent or not.  
