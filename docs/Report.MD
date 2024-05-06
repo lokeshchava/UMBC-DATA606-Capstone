@@ -53,7 +53,7 @@ Describe the datasets you are using to answer your research questions.
 - Missing values:  
 ![missing_values_image](Images/missingvalue.png)
 - Fraud Types:  
-![fraudtypes_image](Images/fraudtypes.png)
+![fraudtypes_image](Images/fraudtype.png)
 - Car Vs Frauds:  
 ![carvsfraud_image](Images/carvsfraud.png)
 - Accident Area Vs Fraud:  
