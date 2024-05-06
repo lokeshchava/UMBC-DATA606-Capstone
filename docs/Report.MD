@@ -72,4 +72,14 @@ Describe the datasets you are using to answer your research questions.
 ![newcor_image](Images/newcor.png)
 - Feature Importance Plot:  
 ![featureplot_image](Images/Featureplot.png)
+
+# 6. Model Training:
+# 7. Deployment:
+# 8. Conclusion:
+Summarize your work and its potential application
+Point out the limitations of your work
+Lessons learned
+Talk about future research direction
+# 9. References:
+
   
