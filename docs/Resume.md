@@ -3,7 +3,7 @@
 **☎️  4436318662**  
 **📧 chavalokesh01@gmail.com**
 
-![Profile_image](images/Headshot.jpg)
+![Profile_image](Images/Headshot.jpg)
  * ### Education 
    * **Master in Professional Studies**: Data Science
      
