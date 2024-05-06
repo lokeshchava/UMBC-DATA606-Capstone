@@ -48,4 +48,6 @@ Describe the datasets you are using to answer your research questions.
   - Web Deployment using Streamlit
 
 # 5. Exploratory Data Analysis (EDA)
+![correlation_old](Images/oldcor.jpg)
+
   
