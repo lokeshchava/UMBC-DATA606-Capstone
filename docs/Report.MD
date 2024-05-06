@@ -48,6 +48,28 @@ Describe the datasets you are using to answer your research questions.
   - Web Deployment using Streamlit
 
 # 5. Exploratory Data Analysis (EDA)
-![correlation_old](Images/oldcor.jpg)
-
+- Statistics:  
+![stats_image](Images/stats.png)
+- Missing values:  
+![missing_values_image](Images/missingvalue.png)
+- Fraud Types:  
+![fraudtypes_image](Images/fraudtypes.png)
+- Car Vs Frauds:  
+![carvsfraud_image](Images/carvsfraud.png)
+- Accident Area Vs Fraud:  
+![accareavsfraud](Images/accareavsfraud.png)
+- Car Make Vs Fraud:  
+![carmakevsfraud_image](Images/carmakevsfraud.png)
+- Car Make Count:  
+![carmakecount_image](Images/carmakecount.png)
+- Fault Vs Fraud:  
+![faultvsfraud_image](Images/faultvsfraud.png)
+- Gender Vs Fraud:  
+![gendervsfraud_image](Images/gendervsfraud.png)
+- Correlation:  
+![oldcor_image](Images/oldcor.png)
+- New Correlation:  
+![newcor_image](Images/newcor.png)
+- Feature Importance Plot:  
+![featureplot_image](Images/Featureplot.png)
   
