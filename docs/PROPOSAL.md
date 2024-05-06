@@ -30,14 +30,14 @@ Describe the datasets you are using to answer your research questions.
        NumberOfSuppliments, AddressChange-Claim, NumberOfCars, BasePolicy, FraudFound
 - variable used as target/label in ML model
   - Claim Level Fraud Detection:
-    - Target Variable: CLAIM_STATUS and CLAIM_AMOUNT. These could indicate whether a claim is fraudulent or not.  
+    - Target Variable: FraudFound. These will indicate whether a claim is fraudulent or not.  
   
 - Columns selected as features/predictors for your ML models
   - Claim Level Fraud Detection:
     - Features can include various attributes related to the claim, customer, and incident:
       - Customer demographics (AGE, MARITAL_STATUS, SOCIAL_CLASS, etc.).
       - Claim details (CLAIM_AMOUNT, INCIDENT_SEVERITY, INCIDENT_STATE, etc.).
-      - Transaction details (TXN_DATE_TIME, POLICY_EFF_DT, REPORT_DT, etc.).
+      - Incident details (DayOfWeek, PoliceReportFiled, NumberOfCars, etc.).
 
 ## Project Flow
   - Initial data preparation
