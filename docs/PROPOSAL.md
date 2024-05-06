@@ -45,5 +45,5 @@ Describe the datasets you are using to answer your research questions.
   - Selecting Data Model
   - Hypertuning the model parameters
   - Testing
-  - Web Deployment using flask
+  - Web Deployment using Streamlit
   
