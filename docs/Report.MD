@@ -72,9 +72,12 @@ Describe the datasets you are using to answer your research questions.
 ![newcor_image](Images/newcor.png)
 - Feature Importance Plot:  
 ![featureplot_image](Images/Featureplot.png)
+- Class Imbalance:
 
 # 6. Model Training:
 # 7. Deployment:
+![homepage_image](Images/homepage.jpeg)
+![homepage_test_image](Images/resultpage.jpeg)
 # 8. Conclusion:
 Summarize your work and its potential application
 Point out the limitations of your work
