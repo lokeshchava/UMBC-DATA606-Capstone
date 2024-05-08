@@ -1,4 +1,4 @@
- # 1. Vehicle insurance fraud detection and analysis
+ # Vehicle insurance fraud detection and analysis
 - Vehicle insurance fraud detection and analysis
 - Prepared for UMBC Data Science Master Degree Capstone by Lokesh Chava under the guidance of Dr Chaojie (Jay) Wang
 - Author Name: Lokesh Chava
@@ -6,7 +6,7 @@
 - LinkedIn profile: https://www.linkedin.com/in/chavalokesh
 - PowerPoint presentation file: https://docs.google.com/presentation/d/1K-_GsqiDmS10ktd7dYoX4rYIWv3ppP3L7I3vTkyYeag/edit?usp=sharing
     
-# 2. Background
+# 1. Background
 Insurance Fraud bumps up to millions of dollars every year for insurance companies. it is very essential to have a fraud detection system in place to avoid fraudulent claims and maintain fairness in the claim process, thus enhancing the company's reputation and building trust.
 - **What is it about?**  
   A fraud detection system for Vehicle insurance claims helps in identifying fraudulent requests for insurance claims and helps in improving a very robust and autonomous system.  
@@ -16,7 +16,7 @@ Insurance Fraud bumps up to millions of dollars every year for insurance compani
   How to classify the fair and fraud requests?   
   what are the factors that determine fraud activities?  
   which algorithm best suits the model?  
-# 3. Data 
+# 2. Data 
 
 Describe the datasets you are using to answer your research questions.
 
@@ -39,7 +39,7 @@ Describe the datasets you are using to answer your research questions.
       - Claim details (CLAIM_AMOUNT, INCIDENT_SEVERITY, INCIDENT_STATE, etc.).
       - Incident details (DayOfWeek, PoliceReportFiled, NumberOfCars, etc.).
 
-# 4. Project Flow
+# 3. Project Flow
   - Initial data preparation
   - Performing Exploratory Data Analysis
   - Selecting Data Model
@@ -47,7 +47,7 @@ Describe the datasets you are using to answer your research questions.
   - Testing
   - Web Deployment using Streamlit
 
-# 5. Exploratory Data Analysis (EDA)
+# 4. Exploratory Data Analysis (EDA)
 - Statistics:  
 ![stats_image](Images/stats.png)  
 - Missing values:  
@@ -82,15 +82,15 @@ With the help of our old correlation matrix, we have filtered some of the column
 
 - Class Imbalance:
 
-# 6. Model Training:
-# 7. Deployment:
+# 5. Model Training:
+# 6. Deployment:
 ![homepage_image](Images/homepage.jpeg)
 ![homepage_test_image](Images/resultpage.jpeg)
-# 8. Conclusion:
+# 7. Conclusion:
 Summarize your work and its potential application
 Point out the limitations of your work
 Lessons learned
 Talk about future research direction
-# 9. References:
+# 8. References:
 
   
