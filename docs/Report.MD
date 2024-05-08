@@ -26,7 +26,7 @@ Describe the datasets you are using to answer your research questions.
 - Data dictionary
    - Integer type columns: WeekOfMonth, WeekOfMonthClaimed, Age, PolicyNumber, RepNumber, Deductible, DriverRating, Year
    - Object type Columns: Month, DayOfWeek, Make, AccidentArea, DayOfWeekClaimed, MonthClaimed, Sex, MaritalStatus, Fault, PolicyType, VehicleCategory, VehiclePrice,
-       Days:Policy-Accident, Days:Policy-Claim, PastNumberOfClaims, AgeOfVehicle, AgeOfPolicyHolder, PoliceReportFiled, WitnessPresent, AgentType,
+       Days: Policy-Accident, Days: Policy-Claim, PastNumberOfClaims, AgeOfVehicle, AgeOfPolicyHolder, PoliceReportFiled, WitnessPresent, AgentType,
        NumberOfSuppliments, AddressChange-Claim, NumberOfCars, BasePolicy, FraudFound
 - variable used as target/label in ML model
   - Claim Level Fraud Detection:
@@ -49,29 +49,37 @@ Describe the datasets you are using to answer your research questions.
 
 # 5. Exploratory Data Analysis (EDA)
 - Statistics:  
-![stats_image](Images/stats.png)
+![stats_image](Images/stats.png)  
 - Missing values:  
-![missing_values_image](Images/missingvalue.png)
+![missing_values_image](Images/missingvalue.png)  
+There aren't any missing values associated with the insurance dataset.
 - Fraud Types:  
-![fraudtypes_image](Images/fraudtype.png)
+![fraudtypes_image](Images/fraudtype.png)  
+Most of the insurance data has valid claims at 94% while the number of fraudulent cases is 6% only, which makes the dataset extremely imbalanced.
 - Car Vs Frauds:  
-![carvsfraud_image](Images/carvsfraud.png)
+![carvsfraud_image](Images/carvsfraud.png)  
+For most of the fraudulent claims, we have only one vehicle involved in the incident which leaves the owner himself making it difficult for incident validation.
 - Accident Area Vs Fraud:  
-![accareavsfraud](Images/accareavsfraud.png)
+![accareavsfraud](Images/accareavsfraud.png)  
+It's not quite surprising that most of the incidents have happened in urban areas as they are always packed with traffic and it's very easy to bump into an accident.
 - Car Make Vs Fraud:  
-![carmakevsfraud_image](Images/carmakevsfraud.png)
-- Car Make Count:  
-![carmakecount_image](Images/carmakecount.png)
+![carmakevsfraud_image](Images/carmakevsfraud.png)  
+pontiac stands out to be the carmaker for cars that are involved in car accidents as those cars are mostly labeled for lower-end prices with a compromise in some of the safety features like lane detection, auto steering, etc.
 - Fault Vs Fraud:  
-![faultvsfraud_image](Images/faultvsfraud.png)
+![faultvsfraud_image](Images/faultvsfraud.png)  
+In most of the incidents, the policyholder holds the fault side at 96% clarifying why there are most of the cases involve only one vehicle.
 - Gender Vs Fraud:  
-![gendervsfraud_image](Images/gendervsfraud.png)
+![gendervsfraud_image](Images/gendervsfraud.png)  
+Most of the fraudulent cases involve men.
 - Correlation:  
-![oldcor_image](Images/oldcor.png)
+![oldcor_image](Images/oldcor.png)  
+The correlation matrix's top row and its adjacent columns represent the most coherent pair of columns in our dataset that has the best correlation factor.
 - New Correlation:  
-![newcor_image](Images/newcor.png)
+![newcor_image](Images/newcor.png)  
+With the help of our old correlation matrix, we have filtered some of the columns for feature selection and model training. We have also made a feature importance plot by which we can streamline the columns for testing and deployment.
 - Feature Importance Plot:  
-![featureplot_image](Images/Featureplot.png)
+![featureplot_image](Images/Featureplot.png)  
+
 - Class Imbalance:
 
 # 6. Model Training:
