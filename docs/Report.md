@@ -83,7 +83,7 @@ With the help of our old correlation matrix, we have filtered some of the column
 - Class Imbalance:
 
 # 5. Model Training:  
-- Data Preparation:  
+- *Data Preparation:*  
   - Features that are to be used to train the machine learning model are selected using drawing a correlation map between the target variable and other variables. The one with the most correlation has been chosen for feature selection
   - Labels need to be encoded before passing them to a model for training because most machine learning algorithms require numeric inputs for labels rather than categorical or textual ones. Encoding converts labels into a numeric format that the algorithm can understand and process during training. we have used Label Encoder for this job.
   - it is important to split the data into training and testing datasets and by using train_test_split we made separate train and test sets.
