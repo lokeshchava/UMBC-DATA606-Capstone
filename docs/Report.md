@@ -87,6 +87,21 @@ With the help of our old correlation matrix, we have filtered some of the column
   - it is important to split the data into training and testing datasets and by using train_test_split we made separate train and test sets.
   - To balance the classes we have chosen Under-sampling the major class and over-sampling the minor class which reduces class imbalances by adjusting the distribution of samples in each class, making the dataset more balanced. This allows the model to learn from both classes more effectively, leading to better performance in predicting minority class instances.
   - Since we will be working with the cat boost model we have to build feature importance metrics. Feature importance in CatBoost refers to understanding which features have the most influence on the model's predictions. It's important because it helps in interpreting the model's behavior, aids in feature selection, assists in model debugging and provides valuable insights for business decisions
+- **Model Building:**
+
+  - **Logistic Regression:**  
+     Logistic regression is a statistical model used for binary classification tasks. It estimates the probability of a binary outcome based on one or more predictor variables. It works by fitting a logistic function to the data, which maps the input variables to the output probability.
+
+     We have passed both downsampled and upsampled data separately for our logistic regression model from which we got 75% accuracy from down-sampled data and 73% accuracy from up-sampling the minor class.
+    
+  - **Random Forest Algorithm:**  
+    Random Forest Classifier (RFC) is an ensemble learning method used for classification tasks. It works by constructing multiple decision trees during training and outputs the mode of the classes (classification) or the mean prediction (regression) of the individual trees.
+    We have got a 77% accuracy using down-sampling the majority class and 98% accuracy with up-sampling the minor class.
+
+  - **Cat Boost Model:**
+    CatBoost is a gradient-boosting algorithm specifically designed to handle categorical variables efficiently. It works by constructing an ensemble of decision trees sequentially, with each tree trained to correct the errors of the previous ones. CatBoost incorporates techniques like ordered boosting, which optimizes the tree construction process, and advanced handling of categorical features, making it effective for a wide range of classification and regression tasks.
+
+    
 
 # 6. Deployment:
 ![homepage_image](Images/homepage.jpeg)
