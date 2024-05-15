@@ -64,7 +64,7 @@ For most of the fraudulent claims, we have only one vehicle involved in the inci
 It's not quite surprising that most of the incidents have happened in urban areas as they are always packed with traffic and it's very easy to bump into an accident.
 - Car Make Vs Fraud:  
 ![carmakevsfraud_image](Images/carmakevsfraud.png)  
-pontiac stands out to be the carmaker for cars that are involved in car accidents as those cars are mostly labeled for lower-end prices with a compromise in some of the safety features like lane detection, auto steering, etc.
+Pontiac stands out to be the carmaker for cars that are involved in car accidents as those cars are mostly labeled for lower-end prices with a compromise in some of the safety features like lane detection, auto steering, etc.
 - Fault Vs Fraud:  
 ![faultvsfraud_image](Images/faultvsfraud.png)  
 In most of the incidents, the policyholder holds the fault side at 96% clarifying why there are most of the cases involve only one vehicle.
@@ -82,7 +82,13 @@ With the help of our old correlation matrix, we have filtered some of the column
 
 - Class Imbalance:
 
-# 5. Model Training:
+# 5. Model Training:  
+- Data Preparation:  
+  - Features that are to be used to train the machine learning model are selected using drawing a correlation map between the target variable and other variables. The one with the most correlation has been chosen for feature selection
+  - Labels need to be encoded before passing them to a model for training because most machine learning algorithms require numeric inputs for labels rather than categorical or textual ones. Encoding converts labels into a numeric format that the algorithm can understand and process during training. we have used Label Encoder for this job.
+  - it is important to split the data into training and testing datasets and by using train_test_split we made separate train and test sets.
+  - Balancing the under-sampling and over-sampling
+  - feature importance
 # 6. Deployment:
 ![homepage_image](Images/homepage.jpeg)
 ![homepage_test_image](Images/resultpage.jpeg)
