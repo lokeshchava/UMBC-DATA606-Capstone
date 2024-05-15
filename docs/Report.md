@@ -7,7 +7,7 @@
 - PowerPoint presentation file: https://1drv.ms/p/s!Akqcb8QudyJ-imA5JsfhVN5M5o2U?e=nqlrip
     
 # 1. Background
-Insurance Fraud bumps up to millions of dollars every year for insurance companies. it is very essential to have a fraud detection system in place to avoid fraudulent claims and maintain fairness in the claim process, thus enhancing the company's reputation and building trust.
+Insurance Fraud bumps up to millions of dollars every year for insurance companies. it is essential to have a fraud detection system in place to avoid fraudulent claims and maintain fairness in the claim process, thus enhancing the company's reputation and building trust.
 - **What is it about?**  
   A fraud detection system for Vehicle insurance claims helps in identifying fraudulent requests for insurance claims and helps in improving a very robust and autonomous system.  
 - **Why does it matter?**  
@@ -112,6 +112,8 @@ With the help of our old correlation matrix, we have filtered some of the column
 # 6. Deployment:
 
 Streamlit is an open-source Python library used to create interactive web applications for machine learning and data science projects. It allows developers to quickly and easily build user interfaces for their machine-learning models using simple Python scripts.  
+
+The Vehicle insurance fraud detection app provides you with an interface to enter your incident details from which it analyzes the user input and provides if the given entry is a fraud claim or a legit claim. The app has two versions app1 has a regular interface with free hand on the user entries while app1_v2 has a guided system that provides a dropdown list for each of the user entries thus making it easier for the model to classify the user's input.
 
 App HomePage
 
