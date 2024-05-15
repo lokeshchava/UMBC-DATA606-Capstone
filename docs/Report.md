@@ -109,9 +109,11 @@ With the help of our old correlation matrix, we have filtered some of the column
 Streamlit is an open-source Python library used to create interactive web applications for machine learning and data science projects. It allows developers to quickly and easily build user interfaces for their machine-learning models using simple Python scripts.  
 
 App HomePage
+
 ![homepage_image](Images/homepage.jpeg)  
 
 App Homepage with input and results
+
 ![homepage_test_image](Images/resultpage.jpeg)  
 
 # 7. Conclusion:
