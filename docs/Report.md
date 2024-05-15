@@ -83,10 +83,15 @@ With the help of our old correlation matrix, we have filtered some of the column
 # 5. Model Training:  
 - **Data Preparation:**  
   - Features that are to be used to train the machine learning model are selected using drawing a correlation map between the target variable and other variables. The one with the most correlation has been chosen for feature selection
+    
   - Labels need to be encoded before passing them to a model for training because most machine learning algorithms require numeric inputs for labels rather than categorical or textual ones. Encoding converts labels into a numeric format that the algorithm can understand and process during training. we have used Label Encoder for this job.
+    
   - it is important to split the data into training and testing datasets and by using train_test_split we made separate train and test sets.
+    
   - To balance the classes we have chosen Under-sampling the major class and over-sampling the minor class which reduces class imbalances by adjusting the distribution of samples in each class, making the dataset more balanced. This allows the model to learn from both classes more effectively, leading to better performance in predicting minority class instances.
+    
   - Since we will be working with the cat boost model we have to build feature importance metrics. Feature importance in CatBoost refers to understanding which features have the most influence on the model's predictions. It's important because it helps in interpreting the model's behavior, aids in feature selection, assists in model debugging and provides valuable insights for business decisions
+    
 - **Model Building:**
 
   - **Logistic Regression:**  
