@@ -123,4 +123,11 @@ Lessons learned
 Talk about future research direction
 # 8. References:
 
+Lu, J., Lin, K., Chen, R., Lin, M., Chen, X., & Lu, P. (2023). Health insurance fraud detection by using an attributed heterogeneous information network with a hierarchical attention mechanism. BMC Medical Informatics and Decision Making, 23(1). https://doi.org/10.1186/s12911-023-02152-0
+
+Wang, & Xu, W. (2018). Leveraging deep learning with LDA-based text analytics to detect automobile insurance fraud. Decision Support Systems, 105, 87–95. https://doi.org/10.1016/j.dss.2017.11.001
+
+Automobile Insurance Fraud Detection using Supervised Classifiers. (2020, October 17). IEEE Conference Publication | IEEE Xplore. https://ieeexplore.ieee.org/abstract/document/9255426
+
+Nian, K., Zhang, H., Tayal, A., Coleman, T., & Li, Y. (2016). Auto insurance fraud detection using unsupervised spectral ranking for the anomaly. the Journal of Finance and Data Science, 2(1), 58–75. https://doi.org/10.1016/j.jfds.2016.03.001
   
