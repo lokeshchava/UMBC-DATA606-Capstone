@@ -101,11 +101,19 @@ With the help of our old correlation matrix, we have filtered some of the column
   - **Cat Boost Model:**
     CatBoost is a gradient-boosting algorithm specifically designed to handle categorical variables efficiently. It works by constructing an ensemble of decision trees sequentially, with each tree trained to correct the errors of the previous ones. CatBoost incorporates techniques like ordered boosting, which optimizes the tree construction process, and advanced handling of categorical features, making it effective for a wide range of classification and regression tasks.
 
+    The model accuracy is 84% with a high recall, standing at 81%.
     
 
 # 6. Deployment:
-![homepage_image](Images/homepage.jpeg)
-![homepage_test_image](Images/resultpage.jpeg)
+
+Streamlit is an open-source Python library used to create interactive web applications for machine learning and data science projects. It allows developers to quickly and easily build user interfaces for their machine-learning models using simple Python scripts.  
+
+App HomePage
+![homepage_image](Images/homepage.jpeg)  
+
+App Homepage with input and results
+![homepage_test_image](Images/resultpage.jpeg)  
+
 # 7. Conclusion:
 Summarize your work and its potential application
 Point out the limitations of your work
