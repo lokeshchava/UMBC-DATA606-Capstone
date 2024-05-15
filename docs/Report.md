@@ -48,42 +48,40 @@ Describe the datasets you are using to answer your research questions.
   - Web Deployment using Streamlit
 
 # 4. Exploratory Data Analysis (EDA)
-- Statistics:  
+- **Statistics:**  
 ![stats_image](Images/stats.png)  
-- Missing values:  
+- **Missing values:**  
 ![missing_values_image](Images/missingvalue.png)  
 There aren't any missing values associated with the insurance dataset.
-- Fraud Types:  
+- **Fraud Types:**  
 ![fraudtypes_image](Images/fraudtype.png)  
 Most of the insurance data has valid claims at 94% while the number of fraudulent cases is 6% only, which makes the dataset extremely imbalanced.
-- Car Vs Frauds:  
+- **Car Vs Frauds:** 
 ![carvsfraud_image](Images/carvsfraud.png)  
 For most of the fraudulent claims, we have only one vehicle involved in the incident which leaves the owner himself making it difficult for incident validation.
-- Accident Area Vs Fraud:  
+- **Accident Area Vs Fraud:**  
 ![accareavsfraud](Images/accareavsfraud.png)  
 It's not quite surprising that most of the incidents have happened in urban areas as they are always packed with traffic and it's very easy to bump into an accident.
-- Car Make Vs Fraud:  
+- **Car Make Vs Fraud:**  
 ![carmakevsfraud_image](Images/carmakevsfraud.png)  
 Pontiac stands out to be the carmaker for cars that are involved in car accidents as those cars are mostly labeled for lower-end prices with a compromise in some of the safety features like lane detection, auto steering, etc.
-- Fault Vs Fraud:  
+- **Fault Vs Fraud:** 
 ![faultvsfraud_image](Images/faultvsfraud.png)  
 In most of the incidents, the policyholder holds the fault side at 96% clarifying why there are most of the cases involve only one vehicle.
-- Gender Vs Fraud:  
+- **Gender Vs Fraud:** 
 ![gendervsfraud_image](Images/gendervsfraud.png)  
 Most of the fraudulent cases involve men.
-- Correlation:  
+- **Correlation:** 
 ![oldcor_image](Images/oldcor.png)  
 The correlation matrix's top row and its adjacent columns represent the most coherent pair of columns in our dataset that has the best correlation factor.
-- New Correlation:  
+- **New Correlation:** 
 ![newcor_image](Images/newcor.png)  
 With the help of our old correlation matrix, we have filtered some of the columns for feature selection and model training. We have also made a feature importance plot by which we can streamline the columns for testing and deployment.
-- Feature Importance Plot:  
+- **Feature Importance Plot:**  
 ![featureplot_image](Images/Featureplot.png)  
 
-- Class Imbalance:
-
 # 5. Model Training:  
-- *Data Preparation:*  
+- **Data Preparation:**  
   - Features that are to be used to train the machine learning model are selected using drawing a correlation map between the target variable and other variables. The one with the most correlation has been chosen for feature selection
   - Labels need to be encoded before passing them to a model for training because most machine learning algorithms require numeric inputs for labels rather than categorical or textual ones. Encoding converts labels into a numeric format that the algorithm can understand and process during training. we have used Label Encoder for this job.
   - it is important to split the data into training and testing datasets and by using train_test_split we made separate train and test sets.
