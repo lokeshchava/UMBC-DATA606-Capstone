@@ -116,11 +116,18 @@ App Homepage with input and results
 
 ![homepage_test_image](Images/resultpage.jpeg)  
 
-# 7. Conclusion:
-Summarize your work and its potential application
-Point out the limitations of your work
-Lessons learned
-Talk about future research direction
+# 7. Conclusion:  
+
+In this project, we explored the task of detecting fraud in vehicle insurance claims using logistic regression, Random Forest Classifier (RFC), and CatBoost models. We deployed the CatBoost model in a Streamlit web application due to its superior recall performance compared to the other models.
+
+We initially addressed class imbalances in the dataset by employing oversampling and undersampling techniques for logistic regression and RFC models, respectively. However, for the CatBoost model, we leveraged the raw dataset and identified crucial features through feature importance analysis. This approach allowed us to capitalize on CatBoost's inherent ability to handle categorical variables efficiently without the need for preprocessing techniques.
+
+Through extensive experimentation and evaluation, we observed that the CatBoost model outperformed logistic regression and RFC in terms of recall, which is a crucial metric for identifying fraudulent claims while minimizing false negatives.
+
+By deploying the CatBoost model using Streamlit, we created an interactive web application that enables users to input their insurance claim details and receive real-time predictions on the likelihood of fraud. This application provides an intuitive interface for insurance companies to quickly assess the risk associated with incoming claims, thereby facilitating timely and informed decision-making processes.
+
+In conclusion, our project demonstrates the effectiveness of CatBoost in fraud detection for vehicle insurance claims and highlights the importance of leveraging advanced modeling techniques and interactive deployment platforms like Streamlit for real-world applications in the insurance industry.  
+
 # 8. References:
 
 Lu, J., Lin, K., Chen, R., Lin, M., Chen, X., & Lu, P. (2023). Health insurance fraud detection by using an attributed heterogeneous information network with a hierarchical attention mechanism. BMC Medical Informatics and Decision Making, 23(1). https://doi.org/10.1186/s12911-023-02152-0
