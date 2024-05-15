@@ -52,31 +52,31 @@ Describe the datasets you are using to answer your research questions.
 ![stats_image](Images/stats.png)  
 - **Missing values:**  
 ![missing_values_image](Images/missingvalue.png)  
-There aren't any missing values associated with the insurance dataset.
+There aren't any missing values associated with the insurance dataset.  
 - **Fraud Types:**  
 ![fraudtypes_image](Images/fraudtype.png)  
-Most of the insurance data has valid claims at 94% while the number of fraudulent cases is 6% only, which makes the dataset extremely imbalanced.
+Most of the insurance data has valid claims at 94% while the number of fraudulent cases is 6% only, which makes the dataset extremely imbalanced.  
 - **Car Vs Frauds:** 
 ![carvsfraud_image](Images/carvsfraud.png)  
-For most of the fraudulent claims, we have only one vehicle involved in the incident which leaves the owner himself making it difficult for incident validation.
+For most of the fraudulent claims, we have only one vehicle involved in the incident which leaves the owner himself making it difficult for incident validation.  
 - **Accident Area Vs Fraud:**  
 ![accareavsfraud](Images/accareavsfraud.png)  
-It's not quite surprising that most of the incidents have happened in urban areas as they are always packed with traffic and it's very easy to bump into an accident.
+It's not quite surprising that most of the incidents have happened in urban areas as they are always packed with traffic and it's very easy to bump into an accident.  
 - **Car Make Vs Fraud:**  
 ![carmakevsfraud_image](Images/carmakevsfraud.png)  
-Pontiac stands out to be the carmaker for cars that are involved in car accidents as those cars are mostly labeled for lower-end prices with a compromise in some of the safety features like lane detection, auto steering, etc.
+Pontiac stands out to be the carmaker for cars that are involved in car accidents as those cars are mostly labeled for lower-end prices with a compromise in some of the safety features like lane detection, auto steering, etc.  
 - **Fault Vs Fraud:** 
 ![faultvsfraud_image](Images/faultvsfraud.png)  
-In most of the incidents, the policyholder holds the fault side at 96% clarifying why there are most of the cases involve only one vehicle.
+In most of the incidents, the policyholder holds the fault side at 96% clarifying why there are most of the cases involve only one vehicle.  
 - **Gender Vs Fraud:** 
 ![gendervsfraud_image](Images/gendervsfraud.png)  
-Most of the fraudulent cases involve men.
+Most of the fraudulent cases involve men.  
 - **Correlation:** 
 ![oldcor_image](Images/oldcor.png)  
-The correlation matrix's top row and its adjacent columns represent the most coherent pair of columns in our dataset that has the best correlation factor.
+The correlation matrix's top row and its adjacent columns represent the most coherent pair of columns in our dataset that has the best correlation factor.  
 - **New Correlation:** 
 ![newcor_image](Images/newcor.png)  
-With the help of our old correlation matrix, we have filtered some of the columns for feature selection and model training. We have also made a feature importance plot by which we can streamline the columns for testing and deployment.
+With the help of our old correlation matrix, we have filtered some of the columns for feature selection and model training. We have also made a feature importance plot by which we can streamline the columns for testing and deployment.  
 - **Feature Importance Plot:**  
 ![featureplot_image](Images/Featureplot.png)  
 
