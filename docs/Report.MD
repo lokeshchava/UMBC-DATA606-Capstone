@@ -4,7 +4,7 @@
 - Author Name: Lokesh Chava
 - GitHub profile: https://github.com/lokeshchava
 - LinkedIn profile: https://www.linkedin.com/in/chavalokesh
-- PowerPoint presentation file: https://docs.google.com/presentation/d/1K-_GsqiDmS10ktd7dYoX4rYIWv3ppP3L7I3vTkyYeag/edit?usp=sharing
+- PowerPoint presentation file: https://1drv.ms/p/s!Akqcb8QudyJ-imA5JsfhVN5M5o2U?e=nqlrip
     
 # 1. Background
 Insurance Fraud bumps up to millions of dollars every year for insurance companies. it is very essential to have a fraud detection system in place to avoid fraudulent claims and maintain fairness in the claim process, thus enhancing the company's reputation and building trust.
